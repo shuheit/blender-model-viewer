@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Blender Model Viewer</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+  <div id="main">
+    <h1>Render multiple models exported from Blender</h1>
+    <div id="app">
+      <div id="model-viewer"></div>
+      <div id="face-viewer">
+          <canvas id="canvas"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/lib/jquery-2.1.1.min.js"></script>
+  <script src="js/lib/three.min.js"></script>
+  <script src="js/lib/TrackballControls.js"></script>
+  <script src="js/lib/Detector.js"></script>
+  <script src="js/lib/underscore-min.js"></script>
+  <script src="js/lib/backbone-min.js"></script>
+  <script src="js/lib/fabric.js"></script>
+  <script src="js/lib/FileSaver.js"></script>
+  <script src="js/lib/OBJExporter.js"></script>
+  <script src="js/lib/SceneExporter.js"></script>
+  <script src="js/app/views/model-viewer.js"></script>
+  <script src="js/app/views/face-viewer.js"></script>
+  <script src="js/app/app.js"></script>
+</body>
+</html>
